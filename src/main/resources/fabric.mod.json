@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "effectcuresfix",
+	"version": "${version}",
+	"name": "Correctif des effets empilés de Porting Lib",
+	"description": "Porting Lib (embarqué par Twilight Forest) plante quand un effet chargé depuis la sauvegarde laisse place à son effet caché (Régénération II par-dessus Régénération I) : joueur éjecté ou serveur arrêté. Ce mod applique le correctif de Porting-Lib#202.",
+	"authors": [
+		"nistroy"
+	],
+	"contact": {
+		"sources": "https://github.com/Nistroy/minecraft-effect-cures-fix",
+		"issues": "https://github.com/Nistroy/minecraft-effect-cures-fix/issues"
+	},
+	"license": "GPL-3.0-only",
+	"environment": "*",
+	"mixins": [
+		"effectcuresfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"porting_lib_entity": "3.1.0-beta.90+1.21.1"
+	}
+}

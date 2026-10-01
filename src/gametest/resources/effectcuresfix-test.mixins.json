@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "io.github.nistroy.effectcuresfix.test.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"GameTestEntrypointsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
